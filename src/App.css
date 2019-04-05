@@ -1,0 +1,40 @@
+li {
+  list-style: none;
+  font-size: 24px;
+  word-break: break-all;
+  /*border: 1px solid rgba(0,0,0,0.1);*/
+
+}
+
+input {
+  margin: 20px auto;
+  width: 400px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 2px 20px 3px 20px;
+  display: block;
+}
+input:focus {
+  outline: none;
+}
+.listWrap {
+  width: 400px;
+  height: 50px;
+  margin: 0 auto;
+  vertical-align: center;
+}
+.list {
+  display: grid;
+  grid-template-columns: 30px 1fr 10px;
+  justify-content: center;
+  text-align: left;
+}
+.alignment {
+  box-sizing: border-box;
+  padding: 10px;
+
+}
+.delete {
+  color: red;
+}
